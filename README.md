@@ -1,2 +1,2 @@
 # PercussionAustralia
-Sound reactive microsite for Percussion Australia
+<h1>Interactive Micro-site for Percussion Australia Identity</h1>

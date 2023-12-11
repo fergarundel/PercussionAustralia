@@ -1,2 +1,2 @@
 # PercussionAustralia
-<h1>Interactive Micro-site for Percussion Australia Identity</h1>
+<h2>Interactive Micro-site for Percussion Australia Identity</h2>

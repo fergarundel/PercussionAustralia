@@ -1,0 +1,35 @@
+:root {
+--instance: 0;  
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  display: block;
+} 
+
+.content{
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'DiatypeBlur';
+  /* src: url('assets/230809-ABCDiatype-PA-blur.woff2') format('woff2-variations'); */
+  src: url('assets/AdamVF.woff2') format('woff2-variations');
+}
+
+#PercussionAustralia {
+  position: absolute;
+  top: 30%;
+  font-size: 150px;
+  font-family: DiatypeBlur;
+  width: 100%;
+  text-align: center;
+  font-variation-settings: 'wght' var(--instance), 'wdth' 0;
+}
+

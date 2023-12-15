@@ -1,0 +1,199 @@
+:root {
+--instance0: 0; 
+--instance1: 0; 
+--instance2: 0; 
+--instance3: 0; 
+--instance4: 0; 
+--instance5: 0; 
+--instance6: 0; 
+--instance7: 0; 
+--instance8: 0; 
+--instance9: 0; 
+--instance10: 0; 
+--instance11: 0; 
+--instance12: 0; 
+--instance13: 0; 
+--instance14: 0; 
+--instance15: 0; 
+--instance16: 0; 
+--instance17: 0; 
+--instance18: 0; 
+--instance19: 0; 
+--instance20: 0; 
+--instance21: 0; 
+--instance22: 0; 
+--instance23: 0; 
+--instance24: 0; 
+--instance25: 0; 
+--instance26: 0; 
+--instance27: 0; 
+--instance28: 0; 
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+
+  background-color: black;
+}
+
+canvas {
+  display: block;
+} 
+
+@font-face {
+  font-family: 'DiatypeBlur';
+  src: url('assets/230809-ABCDiatype-PA-blur.woff2') format('woff2-variations');
+  /* src: url('assets/ABCDiatypeMonoVariable-Trial.ttf') format('woff2-variations'); */
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+}
+
+#DisplayText {
+  color: white;
+  line-height: 100%;
+  position: absolute;
+  /* top: calc((100% - 300px) / 2); */
+  font-size: 10vw;
+  font-family: DiatypeBlur;
+  text-align: left;
+  width: fit-content;
+  padding-left: 16%;
+
+}
+
+.letter-0 {
+  font-variation-settings: 'wght' var(--instance0), 'wdth' 0;
+}
+
+.letter-1 {
+  font-variation-settings: 'wght' var(--instance1), 'wdth' 0;
+}
+
+.letter-2 {
+  font-variation-settings: 'wght' var(--instance2), 'wdth' 0;
+}
+
+.letter-3 {
+  font-variation-settings: 'wght' var(--instance3), 'wdth' 0;
+}
+
+.letter-4 {
+  font-variation-settings: 'wght' var(--instance4), 'wdth' 0;
+}
+
+.letter-5 {
+  font-variation-settings: 'wght' var(--instance5), 'wdth' 0;
+}
+
+.letter-6 {
+  font-variation-settings: 'wght' var(--instance6), 'wdth' 0;
+}
+
+.letter-7 {
+  font-variation-settings: 'wght' var(--instance7), 'wdth' 0;
+}
+
+.letter-8 {
+  font-variation-settings: 'wght' var(--instance8), 'wdth' 0;
+}
+
+.letter-9 {
+  font-variation-settings: 'wght' var(--instance9), 'wdth' 0;
+}
+
+.letter-10 {
+  font-variation-settings: 'wght' var(--instance10), 'wdth' 0;
+}
+
+.letter-11 {
+  font-variation-settings: 'wght' var(--instance11), 'wdth' 0;
+}
+
+.letter-12 {
+  font-variation-settings: 'wght' var(--instance12), 'wdth' 0;
+}
+
+.letter-13 {
+  font-variation-settings: 'wght' var(--instance13), 'wdth' 0;
+}
+
+.letter-14 {
+  font-variation-settings: 'wght' var(--instance14), 'wdth' 0;
+}
+
+.letter-15 {
+  font-variation-settings: 'wght' var(--instance15), 'wdth' 0;
+}
+
+.letter-16 {
+  font-variation-settings: 'wght' var(--instance16), 'wdth' 0;
+}
+
+.letter-17 {
+  font-variation-settings: 'wght' var(--instance17), 'wdth' 0;
+}
+
+.letter-18 {
+  font-variation-settings: 'wght' var(--instance18), 'wdth' 0;
+}
+
+.letter-19 {
+  font-variation-settings: 'wght' var(--instance19), 'wdth' 0;
+}
+
+.letter-20 {
+  font-variation-settings: 'wght' var(--instance20), 'wdth' 0;
+}
+
+.letter-21 {
+  font-variation-settings: 'wght' var(--instance21), 'wdth' 0;
+}
+
+.letter-22 {
+  font-variation-settings: 'wght' var(--instance22), 'wdth' 0;
+}
+
+.letter-23 {
+  font-variation-settings: 'wght' var(--instance23), 'wdth' 0;
+}
+
+.letter-24 {
+  font-variation-settings: 'wght' var(--instance24), 'wdth' 0;
+}
+
+.letter-25 {
+  font-variation-settings: 'wght' var(--instance25), 'wdth' 0;
+}
+
+.letter-26 {
+  font-variation-settings: 'wght' var(--instance26), 'wdth' 0;
+}
+
+.letter-27 {
+  font-variation-settings: 'wght' var(--instance27), 'wdth' 0;
+}
+
+.letter-28 {
+  font-variation-settings: 'wght' var(--instance28), 'wdth' 0;
+}
+
+/* @-webkit-keyframes letter_blur {
+  0% { -webkit-filter: blur(0px);}
+  50% { -webkit-filter: blur(2px);}
+  100% { -webkit-filter: blur(0px);}
+} */
+
+
+/* :hover {
+  -webkit-animation: letter_blur 0.5s;
+} */
+
